@@ -1,1 +1,6 @@
-(setq prelude-theme 'solarized-dark)
+(when(display-graphic-p)
+    (setq prelude-theme 'solarized-gruvbox-dark)
+    ;;(setq prelude-theme 'solarized-dark)
+    ;;(setq prelude-theme 'doom-dark+)
+    ;;(setq prelude-theme 'spacemacs-dark)
+)
